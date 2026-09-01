@@ -1,4 +1,4 @@
-# Hackpad
+# Productivity Pad
 
 A 6-key macropad with a rotary encoder, built for the [Hack Club Hackpad](https://hackpad.hackclub.com/) program.
 
@@ -18,7 +18,7 @@ A 6-key macropad with a rotary encoder, built for the [Hack Club Hackpad](https:
 
 ![Case](docs/images/case.png)
 
-Single-piece 3D printed case (`CAD/hackpad_assembly.step`) with a laser-cut plate (`CAD/plate-*.dxf`).
+Single-piece, fully 3D printed case (`CAD/hackpad_assembly.step`).
 
 ## Bill of Materials
 
