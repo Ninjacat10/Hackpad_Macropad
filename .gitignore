@@ -1,0 +1,6 @@
+*.lck
+*-backups/
+_autosave-*
+fp-info-cache
+.stash-*
+.history/

@@ -1,0 +1,4 @@
+"Reference","Value","Footprint","Qty"
+"SW1-SW6","SW_Push","Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB",""
+"SW8","RotaryEncoder_Switch","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm",""
+"U1","MOUDLE-SEEEDUINO-XIAO","footprints:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM",""
