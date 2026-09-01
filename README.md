@@ -16,7 +16,9 @@ A 6-key macropad with a rotary encoder, built for the [Hack Club Hackpad](https:
 
 ## Case
 
-<!-- TODO: add a screenshot / render of the assembled case (CAD/hackpad_case.stl + CAD/plate) showing how the plate and shell fit together -->
+![Case](docs/images/case.png)
+
+Single-piece 3D printed case (`CAD/hackpad_assembly.step`) with a laser-cut plate (`CAD/plate-*.dxf`).
 
 ## Bill of Materials
 
