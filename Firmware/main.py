@@ -31,13 +31,14 @@ keyboard.diode_orientation = DiodeOrientation.COLUMNS
 
 # Keymap: one row of 6 keys, matching SW1..SW6 order above
 keyboard.keymap = [
-    [KC.A, KC.B, KC.C, KC.D, KC.E, KC.F]  # TODO: set to the keys you actually want
+    [KC.LCTL(KC.C), KC.LCTL(KC.V), KC.LCTL(KC.Z), KC.LCTL(KC.Y), KC.LCTL(KC.S), KC.MUTE]
+    # SW1: Copy   SW2: Paste   SW3: Undo   SW4: Redo   SW5: Save   SW6: Mute
 ]
 
-# Rotary encoder (SW8): A=D8, B=D6. Encoder click handled separately below.
+# Rotary encoder (SW8): A=D8, B=D6. Turning it adjusts volume.
 encoder_handler = EncoderHandler()
 encoder_handler.pins = ((board.D8, board.D6, None),)  # (pin_a, pin_b, button_pin)
-encoder_handler.map = [((KC.VOLU, KC.VOLD),)]  # TODO: set desired encoder actions
+encoder_handler.map = [((KC.VOLU, KC.VOLD),)]
 keyboard.modules.append(encoder_handler)
 
 if __name__ == '__main__':
