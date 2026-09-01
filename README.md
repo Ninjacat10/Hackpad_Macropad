@@ -14,6 +14,8 @@ A 6-key macropad with a rotary encoder, built for the [Hack Club Hackpad](https:
 
 ![PCB top layer](docs/images/pcb_top.svg)
 
+![PCB routing](docs/images/pcb_routing.png)
+
 ## Case
 
 ![Case](docs/images/case.png)
